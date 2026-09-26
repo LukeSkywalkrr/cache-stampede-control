@@ -1,0 +1,4 @@
+strategy,readers,cycles,ttl_millis,recompute_millis,origin_fetches,max_origin_fetches_per_expiry,wait_responses,early_refreshes
+naive,1000,5,1000,100,5000,1000,0,0
+lease,1000,5,1000,100,5,1,4995,0
+xfetch,1000,5,1000,100,25,6,0,25
